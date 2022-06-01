@@ -1,0 +1,27 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "web-bot-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/webBot/WebBotWebPart.js",
+          "manifest": "./src/webparts/webBot/WebBotWebPart.manifest.json"
+        }
+      ]
+    },
+    "web-bot-header-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/webBotHeader/WebBotHeaderApplicationCustomizer.js",
+          "manifest": "./src/extensions/webBotHeader/WebBotHeaderApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "WebBotWebPartStrings": "lib/webparts/webBot/loc/{locale}.js",
+    "WebBotHeaderApplicationCustomizerStrings": "lib/extensions/webBotHeader/loc/{locale}.js"
+  }
+}

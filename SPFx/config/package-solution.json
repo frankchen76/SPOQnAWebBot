@@ -1,0 +1,52 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+    "solution": {
+        "name": "WebBotSPFxSolution",
+        "id": "5fc44389-2a72-473d-835b-19f08617746f",
+        "version": "1.0.0.0",
+        "includeClientSideAssets": true,
+        "skipFeatureDeployment": true,
+        "isDomainIsolated": false,
+        "developer": {
+            "name": "",
+            "websiteUrl": "",
+            "privacyUrl": "",
+            "termsOfUseUrl": "",
+            "mpnId": "Undefined-1.14.0"
+        },
+        "metadata": {
+            "shortDescription": {
+                "default": "WebBotSPFx description"
+            },
+            "longDescription": {
+                "default": "WebBotSPFx description"
+            },
+            "screenshotPaths": [],
+            "videoUrl": "",
+            "categories": []
+        },
+        "features": [
+            {
+                "title": "web-bot-sp-fx Feature",
+                "description": "The feature that activates elements of the web-bot-sp-fx solution.",
+                "id": "24e243a5-8444-4c92-a37e-a6b5623052d0",
+                "version": "1.0.0.0",
+                "assets": {
+                    "elementManifests": [
+                        "elements.xml",
+                        "ClientSideInstance.xml"
+                    ]
+                }
+            }
+        ],
+        "webApiPermissionRequests": [
+            {
+                "resource": "WebBot.BotAPI",
+                "scope": "WebBot.Read"
+            }
+        ]
+    },
+    "paths": {
+        "zippedPackage": "solution/WebBotSPFx.sppkg"
+    }
+}

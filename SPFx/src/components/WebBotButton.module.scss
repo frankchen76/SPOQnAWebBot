@@ -1,0 +1,36 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.webbotdiv {
+    pointer-events: none;
+    visibility: visible;
+    position: fixed;
+    right: 17px;
+    //bottom: 100px;
+    top: 48px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+}
+.webbotdiv >.hidetab {
+    right: -60px;
+}
+.webbotBtn {
+    position: relative;
+    display: flex;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    //font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+    cursor: pointer;
+    transition: right 0.3s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    right: 0px;
+    z-index: 1;
+    pointer-events: auto;
+    background: rgb(0, 131, 140);
+    padding: 0px;
+    border: 0px;
+}
+.webbotBtn:hover {
+    right: 0px;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+}

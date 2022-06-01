@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="WebBotHeader"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ClientSideComponentId="fc2fe0b6-fdb9-400a-960f-ff1f20ebe786"
+        ClientSideComponentProperties="{&quot;testMessage&quot;:&quot;Test message&quot;,&quot;botId&quot;:&quot;57650015-0CDF-4311-BBA5-A4EB57732546&quot;,&quot;enabled&quot;:true}">
+    </CustomAction>
+</Elements>

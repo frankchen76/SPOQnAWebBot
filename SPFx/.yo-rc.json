@@ -1,0 +1,17 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": false,
+    "version": "1.14.0",
+    "libraryName": "web-bot-sp-fx",
+    "libraryId": "5fc44389-2a72-473d-835b-19f08617746f",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "WebBotSPFx",
+    "solutionShortDescription": "WebBotSPFx description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "extension",
+    "extensionType": "ApplicationCustomizer"
+  }
+}

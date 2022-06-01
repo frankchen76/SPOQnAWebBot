@@ -1,0 +1,40 @@
+{
+    "version": "0.2.0",
+    "configurations": [{
+            "name": "Hosted workbench",
+            "type": "pwa-chrome",
+            "request": "launch",
+            "url": "https://m365x725618.sharepoint.com/sites/SPFxWorkshop-Dev/_layouts/workbench.aspx",
+            "webRoot": "${workspaceRoot}",
+            "sourceMaps": true,
+            "sourceMapPathOverrides": {
+                "webpack:///.././src/*": "${webRoot}/src/*",
+                "webpack:///../../../src/*": "${webRoot}/src/*",
+                "webpack:///../../../../src/*": "${webRoot}/src/*",
+                "webpack:///../../../../../src/*": "${webRoot}/src/*"
+            },
+            "runtimeArgs": [
+                "--remote-debugging-port=9222",
+                "-incognito"
+            ]
+        },
+        {
+            "name": "Hosted Extension",
+            "type": "pwa-chrome",
+            "request": "launch",
+            "url": "https://m365x725618.sharepoint.com/sites/SPFxWorkshop-Dev?debugManifestsFile=https%3A%2F%2Flocalhost%3A4321%2Ftemp%2Fmanifests.js&loadSPFX=true&customActions=%7B%22fc2fe0b6-fdb9-400a-960f-ff1f20ebe786%22%3A%7B%22location%22%3A%22ClientSideExtension.ApplicationCustomizer%22%2C%22properties%22%3A%7B%22testMessage%22%3A%22Test+message%22%2C%22botId%22%3A%2257650015-0CDF-4311-BBA5-A4EB57732546%22%2C%22enabled%22%3Atrue%7D%7D%7D",
+            "webRoot": "${workspaceRoot}",
+            "sourceMaps": true,
+            "sourceMapPathOverrides": {
+                "webpack:///.././src/*": "${webRoot}/src/*",
+                "webpack:///../../../src/*": "${webRoot}/src/*",
+                "webpack:///../../../../src/*": "${webRoot}/src/*",
+                "webpack:///../../../../../src/*": "${webRoot}/src/*"
+            },
+            "runtimeArgs": [
+                "--remote-debugging-port=9222",
+                "-incognito"
+            ]
+        }
+    ]
+}

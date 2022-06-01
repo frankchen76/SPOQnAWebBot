@@ -1,0 +1,34 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+    "port": 4321,
+    "https": true,
+    "initialPage": "https://enter-your-SharePoint-site/_layouts/workbench.aspx",
+    "serveConfigurations": {
+        "default": {
+            "pageUrl": "https://m365x725618.sharepoint.com/sites/SPFxWorkshop-Dev",
+            "customActions": {
+                "fc2fe0b6-fdb9-400a-960f-ff1f20ebe786": {
+                    "location": "ClientSideExtension.ApplicationCustomizer",
+                    "properties": {
+                        "testMessage": "Test message",
+                        "botId": "57650015-0CDF-4311-BBA5-A4EB57732546",
+                        "enabled": true
+                    }
+                }
+            }
+        },
+        "webBotHeader": {
+            "pageUrl": "https://m365x725618.sharepoint.com/sites/SPFxWorkshop-Dev",
+            "customActions": {
+                "fc2fe0b6-fdb9-400a-960f-ff1f20ebe786": {
+                    "location": "ClientSideExtension.ApplicationCustomizer",
+                    "properties": {
+                        "testMessage": "Test message",
+                        "botId": "57650015-0CDF-4311-BBA5-A4EB57732546",
+                        "enabled": true
+                    }
+                }
+            }
+        }
+    }
+}
